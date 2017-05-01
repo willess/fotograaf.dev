@@ -92,7 +92,7 @@ class ImageController extends Controller
         //validate the input
         $this->validate($request, [
 //            'image' => 'required|image|mimes:jpeg,png,jpg,svg,gif|max:4096',
-            'image' => 'required|image|mimes:jpeg,png,jpg,svg,gif|max:120000',
+            'image' => 'required|image|mimes:jpeg,png,jpg,svg,gif|max:12000',
             'title' => 'required|max:50',
             'location' => 'max: 100',
             'subscription' => 'max:1500',

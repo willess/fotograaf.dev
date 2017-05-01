@@ -33,7 +33,7 @@ class HeaderController extends Controller
             'title' => 'required|max:15',
             'text' => 'max: 100',
 //            'header' => 'image|mimes:jpeg,png,jpg,svg,gif|max:4096'
-                        'header' => 'image|mimes:jpeg,png,jpg,svg,gif|max:120000',
+                        'header' => 'image|mimes:jpeg,png,jpg,svg,gif|max:12000',
 
         ]);
 
